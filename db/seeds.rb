@@ -6,28 +6,28 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 users = [User.new(name:'Claudio', lastname:'Alvarez', \
-     password:'123456', email:'calvarez1@miuandes.cl', phone:569987754,\
+     password:'4fdaef56', email:'calvarez1@miuandes.cl', phone:569987754,\
               address:'San Carlos de Apoquindo'), 
          User.new(name:'Juan', lastname:'Rataplan', \
-              password:'123456', email:'jrataplan@miuandes.cl', phone:775654889,\
+              password:'001234dadf56', email:'jrataplan@miuandes.cl', phone:775654889,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Rabufetti', \
-              password:'123456', email:'rrabufetti@miuandes.cl', phone:822705642,\
+              password:'23fdsafd456', email:'rrabufetti@miuandes.cl', phone:822705642,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Ganfolfi', \
-              password:'123456', email:'rgandolfi@miuandes.cl', phone:225393142,\
+              password:'fdsafs23456', email:'rgandolfi@miuandes.cl', phone:225393142,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Licenciado', lastname:'Varela', \
-              password:'123456', email:'lvarela@miuandes.cl', phone:923777685,\
+              password:'234fdfsas56', email:'lvarela@miuandes.cl', phone:923777685,\
               address:'San Carlos de Apoquindo')]
               
 for u in users do
   u.save!
 end 
 
-event_venues = [EventVenue.new(name: 'Estadio Nacional', address:'Maraton', capacity: 60000),\
-                EventVenue.new(name: 'Estadio Monumental', address:'Exequiel', capacity: 25000),\
-                EventVenue.new(name: 'Movistar Arena', address:'Matta', capacity: 15000)]
+event_venues = [EventVenue.new(name: 'Estadio Nacional: JULIO Martinez ', address:'Maraton', capacity: 60000),\
+                EventVenue.new(name: 'Estadio Monumental: David Arellanos', address:'Exequiel', capacity: 25000),\
+                EventVenue.new(name: 'Movistar Arena: Parque Ohiggins', address:'Matta', capacity: 15000)]
                 
 for ev in event_venues do
   ev.save!
