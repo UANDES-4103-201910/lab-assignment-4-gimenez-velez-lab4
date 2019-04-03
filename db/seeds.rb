@@ -6,23 +6,19 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 users = [User.new(name:'Claudio', lastname:'Alvarez', \
-<<<<<<< HEAD
-              password:'123456', email:'a@a.com', \
-=======
-              password:'123456', email:'calvarez1@miuandes.cl', phone:75884676,\
->>>>>>> 8efe46a66af3be9e600604afb9da9881c1257059
+     password:'123456', email:'calvarez1@miuandes.cl', phone:569987754,\
               address:'San Carlos de Apoquindo'), 
          User.new(name:'Juan', lastname:'Rataplan', \
-              password:'123456', email:'jrataplan@miuandes.cl', phone:77565488,\
+              password:'123456', email:'jrataplan@miuandes.cl', phone:775654889,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Rabufetti', \
-              password:'123456', email:'rrabufetti@miuandes.cl', phone:82275642,\
+              password:'123456', email:'rrabufetti@miuandes.cl', phone:822705642,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Ganfolfi', \
-              password:'123456', email:'rgandolfi@miuandes.cl', phone:22533142,\
+              password:'123456', email:'rgandolfi@miuandes.cl', phone:225393142,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Licenciado', lastname:'Varela', \
-              password:'123456', email:'lvarela@miuandes.cl', phone:92377685,\
+              password:'123456', email:'lvarela@miuandes.cl', phone:923777685,\
               address:'San Carlos de Apoquindo')]
               
 for u in users do
