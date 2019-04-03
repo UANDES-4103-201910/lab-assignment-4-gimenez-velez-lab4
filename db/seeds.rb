@@ -6,19 +6,19 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 users = [User.new(name:'Claudio', lastname:'Alvarez', \
-              password:'123456', email:'calvarez1@miuandes.cl', \
+              password:'123456', email:'calvarez1@miuandes.cl', phone:75884676,\
               address:'San Carlos de Apoquindo'), 
          User.new(name:'Juan', lastname:'Rataplan', \
-              password:'123456', email:'jrataplan@miuandes.cl', \
+              password:'123456', email:'jrataplan@miuandes.cl', phone:77565488,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Rabufetti', \
-              password:'123456', email:'rrabufetti@miuandes.cl', \
+              password:'123456', email:'rrabufetti@miuandes.cl', phone:82275642,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Raul', lastname:'Ganfolfi', \
-              password:'123456', email:'rgandolfi@miuandes.cl', \
+              password:'123456', email:'rgandolfi@miuandes.cl', phone:22533142,\
               address:'San Carlos de Apoquindo'),
          User.new(name:'Licenciado', lastname:'Varela', \
-              password:'123456', email:'lvarela@miuandes.cl', \
+              password:'123456', email:'lvarela@miuandes.cl', phone:92377685,\
               address:'San Carlos de Apoquindo')]
               
 for u in users do
