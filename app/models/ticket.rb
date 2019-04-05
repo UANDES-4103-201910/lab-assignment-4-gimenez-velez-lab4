@@ -4,7 +4,7 @@ class Ticket < ApplicationRecord
 	before_validation :valid_date
 	def valid_date
 		if ticket_type.event.start_date<Date.today
-			errors.add(:ticket, "can't be in the past")
+			errors.add(:ticket, "can't create tickets for past events")
 		end
 	end
 end

@@ -33,13 +33,15 @@ for ev in event_venues do
   ev.save!
 end 
 
+evasd=Event.new(name:'MetalFest', description: 'Puro metal',start_date: '2018-12-12', event_venue: event_venues[1])
+evasd.save!
+
 events = [Event.new(name:'Festival de la Cancion', description: 'Puro reggaeton',\
           start_date: '2019-06-01', event_venue: event_venues[0]),
           Event.new(name:'Twisted Sister', description: 'Puro rock',\
           start_date: '2019-12-12', event_venue: event_venues[1]),
           Event.new(name:'Bad Bunny', description: 'Puro Trap',\
           start_date: '2019-04-04', event_venue: event_venues[2])]
-
 for e in events do
   e.save!
 end 
